@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Provably Safe AI</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://provablysafe.ai',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.provablysafe.ai',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/provablysafeai/website',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Provably Safe AI',
   },
 }
 

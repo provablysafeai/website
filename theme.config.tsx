@@ -2,6 +2,7 @@ import React from 'react'
 import type { FC, ReactNode } from 'react'
 import { useRouter } from 'next/router'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 import { DocsThemeConfig, LocaleSwitch, useConfig } from 'nextra-theme-docs'
 import cn from 'clsx'
 
@@ -17,7 +18,7 @@ export function renderComponent<T>(
 const config: DocsThemeConfig = {
   logo: <span>Provably Safe AI</span>,
   project: {
-    link: 'https://provablysafe.ai',
+    link: 'https://github.com/provablysafeai',
   },
   chat: {
     link: 'https://discord.provablysafe.ai',
@@ -77,6 +78,7 @@ const config: DocsThemeConfig = {
             </div>
           </footer>
           <SpeedInsights />
+          <Analytics />
         </>
       )
     },

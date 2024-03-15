@@ -16,7 +16,7 @@ export function renderComponent<T>(
 }
 
 const config: DocsThemeConfig = {
-  logo: <span>Provably Safe AI</span>,
+  logo: <span>ProvablySafe.AI</span>,
   project: {
     link: 'https://github.com/provablysafeai',
   },
@@ -28,7 +28,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s – Provably Safe AI',
+        titleTemplate: '%s – ProvablySafe.AI',
       }
     }
   },
@@ -44,7 +44,7 @@ const config: DocsThemeConfig = {
         <meta property="og:url" content={url} />
         <meta
           property="og:title"
-          content={frontMatter.title || 'Provably Safe AI'}
+          content={frontMatter.title || 'ProvablySafe.AI'}
         />
         <meta
           property="og:description"
@@ -62,7 +62,7 @@ const config: DocsThemeConfig = {
     useLink: () => 'https://github.com/provablysafeai/website/issues/new',
   },
   footer: {
-    text: 'Provably Safe AI',
+    text: 'ProvablySafe.AI',
     component: () => {
       const config = useConfig()
       return (

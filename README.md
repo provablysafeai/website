@@ -1,4 +1,4 @@
-# Provably Safe AI Website
+# ProvablySafe.AI Website
 
 This is the source code for the website at https://provablysafe.ai.
 

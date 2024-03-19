@@ -8,13 +8,13 @@ module.exports = withNextra({
     return [
       {
         source: '/p/:slug*',
-        destination: 'https://news.provablysafe.ai/p/:slug*',
+        destination: 'https://substack.provablysafe.ai/p/:slug*',
         basePath: false,
         permanent: true,
       },
       {
         source: '/archive',
-        destination: 'https://news.provablysafe.ai/archive',
+        destination: 'https://substack.provablysafe.ai/archive',
         basePath: false,
         permanent: true,
       },

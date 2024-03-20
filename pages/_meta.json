@@ -4,6 +4,12 @@
     "title": "About",
     "type": "page"
   },
+  "newsletter": {
+    "title": "Newsletter ↗",
+    "type": "page",
+    "href": "https://substack.provablysafe.ai",
+    "newWindow": true
+  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",

@@ -1,9 +1,5 @@
 {
   "index": "Home",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "newsletter": {
     "title": "Newsletter ↗",
     "type": "page",
